@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\MyFirstApp.exe
+C:\Users\HP\Desktop\MyFirstApp.dll
+C:\Users\HP\Desktop\MyFirstApp.deps.json
+C:\Users\HP\Desktop\MyFirstApp.runtimeconfig.json
+C:\Users\HP\Desktop\MyFirstApp.pdb

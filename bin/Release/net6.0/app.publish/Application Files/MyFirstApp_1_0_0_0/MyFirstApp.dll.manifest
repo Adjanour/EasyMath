@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MyFirstApp.exe" version="1.0.0.0" publicKeyToken="1fcd777352c73968" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16848">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TZM0Rtptda0Ud+mzSpn5ylN+p/H5kS8jvFbZdcwq/JA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MyFirstApp.deps.json" size="422">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Zm95jLWmWXMhHKHWnzUvB+tWnJJhnoHd6/h6pAqoipQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MyFirstApp.dll" size="12752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>szFkteC8oNCutdFCSpcS0p0UKoQuVJ5OQl5lZ3vzTd8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MyFirstApp.exe" size="148944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yEQLiL1da1cf5WEeasQ6kNmxL4agR2dR7W095ZNa9Sc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MyFirstApp.runtimeconfig.json" size="253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3tOutYVqEdsLZUp4VXRJDKtVg56/sX7+njm4lhj8W5E=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-HOQT5HJ\HP" issuerKeyHash="207b4074918081a724f271891e506b017004d650" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>2tPX90s03Dy7lNRXj+8OEpFIphquJOtQ3AxPCAJ7zI8=</DigestValue></Reference></SignedInfo><SignatureValue>QMMB/ZDP9osrqyIpuTdsSKsJidN52BkbJPG4+4y/2EuEJkU3+uybANkkq5SN9tFINduRtw1v+wUhjN7mcAL9SCeEa1BrEVATYjaTZ60x3vnK9Ep2XsqSiYHKeQq0xASOlZF1woGvG03fWfYjTzSX1o06VsNJ1Uaus144Dy0epes=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sjp4ap2ac0YbRqzsbVWWNfCxhrhIqZsmw90QyWIWf5YDNf8JfQMh6zunZQigRa+WoVcoRiysu9KLo91a8fy2rDDc1WUJ3dbPk/MaxHkZOm8NzeHhn2iQkbrXc3dtQkhrzleLYcwgSy+6N2zChIElr7K2rJb7v272fPxGshNhItk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8fcc7b02084f0cdc50eb24ae1aa64891120eef8f57d494bb3cdc344bf7d7d3da" Description="" Url=""><as:assemblyIdentity name="MyFirstApp.exe" version="1.0.0.0" publicKeyToken="1fcd777352c73968" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-HOQT5HJ\HP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ItGJx1QZIGuEXpg3c5j561BP7pRVFjhG6fsvzqyZgZw=</DigestValue></Reference></SignedInfo><SignatureValue>cIbdt/jUZct2AL+5EfQ0By7onxuk7Z1JJTPmkygD6cyfvgLQXjln1/QXzwj04n1EjE6BVX48YaK/ejjNQXq3FhBmCzt2QrURqd0GrA2+jVakxRQGe4GHaxCnTAM0Kc9o64Mcoob8CabOWHNdBjC2IC7hsfwlP4OtBnEfMFDjysw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sjp4ap2ac0YbRqzsbVWWNfCxhrhIqZsmw90QyWIWf5YDNf8JfQMh6zunZQigRa+WoVcoRiysu9KLo91a8fy2rDDc1WUJ3dbPk/MaxHkZOm8NzeHhn2iQkbrXc3dtQkhrzleLYcwgSy+6N2zChIElr7K2rJb7v272fPxGshNhItk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQG7snzEs1DpxCo9SdaBRAOTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEgATwBRAFQANQBIAEoAXABIAFAwHhcNMjMwMTE4MjAwNTA3WhcNMjQwMTE5MDIwNTA3WjAvMS0wKwYDVQQDHiQARABFAFMASwBUAE8AUAAtAEgATwBRAFQANQBIAEoAXABIAFAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALI6eGqdmnNGG0as7G1VljXwsYa4SKmbJsPdEMliFn+WAzX/CX0DIes7p2UIoEWvlqFXKEYsrLvSi6PdWvH8tqww3NVlCd3Wz5PzGsR5GTpvDc3h4Z9okJG613N3bUJIa85Xi2HMIEsvujdswoSBJa+ytqyW+79u9nz8RrITYSLZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAHehwCIMOUv+r7jhNIZICC5RZqQlhk2aG0kVrH3g5ybKG2Frl1ziw4R0CBBDW1+SVQHIjWav96FXvnl+ireFcbYTDRN5kBF/3MznG1OIEw7vx2+Qmg8cLCnkPe59yMASIKdNrfMvrzoUygFtXlY98SJI4vq0/gPf9/gKf8py+6Ic=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

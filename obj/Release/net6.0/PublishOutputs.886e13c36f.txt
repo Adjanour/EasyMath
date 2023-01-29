@@ -1,0 +1,5 @@
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Release\net6.0\app.publish\MyFirstApp.exe
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Release\net6.0\app.publish\MyFirstApp.dll
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Release\net6.0\app.publish\MyFirstApp.deps.json
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Release\net6.0\app.publish\MyFirstApp.runtimeconfig.json
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Release\net6.0\app.publish\MyFirstApp.pdb
