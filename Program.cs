@@ -2,7 +2,7 @@
 using static System.Console;
 
 Write("Hello and WELCOME!");
-ReadKey();
+Console.ReadKey();
 bool returning = true;
 while (returning)
 {

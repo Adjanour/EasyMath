@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyFirstApp</id>
+    <version>1.0.0</version>
+    <title>Easy Wasy</title>
+    <authors>MyFirstApp</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+    <contentFiles>
+      <files include="any/net6.0/w-brand.png" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Debug\net6.0\MyFirstApp.runtimeconfig.json" target="lib\net6.0\MyFirstApp.runtimeconfig.json" />
+    <file src="C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Debug\net6.0\MyFirstApp.dll" target="lib\net6.0\MyFirstApp.dll" />
+    <file src="C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Debug\net6.0\MyFirstApp.xml" target="lib\net6.0\MyFirstApp.xml" />
+    <file src="C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\w-brand.png" target="content\w-brand.png" />
+    <file src="C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\w-brand.png" target="contentFiles\any\net6.0\w-brand.png" />
+  </files>
+</package>

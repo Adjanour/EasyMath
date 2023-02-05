@@ -13,3 +13,5 @@ C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\obj\Debug\net6.0\refint\MyFirstAp
 C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\obj\Debug\net6.0\MyFirstApp.pdb
 C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\obj\Debug\net6.0\MyFirstApp.genruntimeconfig.cache
 C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\obj\Debug\net6.0\ref\MyFirstApp.dll
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\bin\Debug\net6.0\MyFirstApp.xml
+C:\Users\HP\source\repos\MyFirstApp\MyFirstApp\obj\Debug\net6.0\MyFirstApp.xml
