@@ -179,7 +179,7 @@ internal class Area
         WriteLine("The Area of the Rectangle is" + ' ' + AreaofRectangle);
     }
 
-    public static void Circle()
+    public static void Circle() 
     {
         Double radius = 0;
         Write("Enter the radius of your Circle:");
