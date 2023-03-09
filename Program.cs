@@ -8,8 +8,8 @@ while (returning)
 {
     WriteLine("1.Area" + ' ' + "2.Perimeter " + ' ' + "3.Volume" + ' ' + "4.Imaginary Numbers" + ' ' + "5.Quadratic");
     Write("Your Choice:");
-    Double MainEntry = Convert.ToDouble(Console.ReadLine());
-    if (MainEntry == 1)
+    Double mainEntry = Convert.ToDouble(Console.ReadLine());
+    if (mainEntry == 1)
     {
         WriteLine("1.RECTANGLE " + ' ' +
                   "2.CIRCLE " + ' ' +
@@ -58,7 +58,7 @@ while (returning)
         else Exceptions.Exception1();
 
     }
-    else if (MainEntry == 2)
+    else if (mainEntry == 2)
     {
 
         WriteLine("1.RECTANGLE " + ' ' +
@@ -77,7 +77,7 @@ while (returning)
         }
         else Exceptions.Exception1();
     }
-    else if (MainEntry == 3)
+    else if (mainEntry == 3)
     {
         WriteLine("1.Prism " + ' ' +
                  "2.Sphere " + ' ' + "3.Pyramid");
@@ -136,7 +136,7 @@ while (returning)
         }
         else Exceptions.Exception1();
     }
-    else if (MainEntry == 4)
+    else if (mainEntry == 4)
     {
         WriteLine("1.Addition" + ' ' + "2.Multiplication" + ' ' + "3.Division");
         Write("Your Choice:");
@@ -158,6 +158,12 @@ while (returning)
             ExitandEntry.ExitFunction();
         }
 
+
+    }
+    else if (mainEntry == 5)
+    {
+        Quadratic.roots();
+        ExitandEntry.ExitFunction();
 
     }
     else
@@ -441,5 +447,52 @@ internal class complexNumber
     }
 }
 internal class Quadratic
-{
+{ 
+    public static void roots()
+    {
+
+        // Prompt the user to enter coefficients a, b, and c
+        Console.Write("Enter coefficient a: ");
+        double a = double.Parse(Console.ReadLine());
+
+        Console.Write("Enter coefficient b: ");
+        double b = double.Parse(Console.ReadLine());
+
+        Console.Write("Enter coefficient c: ");
+        double c = double.Parse(Console.ReadLine());
+
+        // Calculate the discriminant
+        double D = b * b - 4 * a * c;
+
+        if (D < 0)
+        {
+            // The quadratic equation has no real roots
+            Console.WriteLine("The quadratic equation has no real roots.");
+        }
+        else if (D == 0)
+        {
+            // The quadratic equation has one real root
+            double x = -b / (2 * a);
+            Console.WriteLine("The quadratic equation has one real root: x = {0}", x);
+        }
+        else
+        {
+            // The quadratic equation has two real roots
+            double x1 = (-b + Math.Sqrt(D)) / (2 * a);
+            double x2 = (-b - Math.Sqrt(D)) / (2 * a);
+            Console.WriteLine("The quadratic equation has two real roots: x1 = {0}, x2 = {1}", x1, x2);
+        }
+
+    }      
+
+
+    
+    public static void solution()
+    {
+
+    }
+    public static void stateOfSolution()
+    {
+
+    }
 }
