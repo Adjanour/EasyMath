@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 using static System.Console;
 
 Write("Hello and WELCOME!");
@@ -270,11 +270,6 @@ internal class Volume
         WriteLine("The Volume of Your Cuboid is:" + ' ' + VolumeOfPrism);
 
     }
-    public static void triangularPrism()
-    {
-
-
-    }
     public static void SquarePyramid()
     {
         Write("Enter the Length of the base:");
@@ -447,16 +442,4 @@ internal class complexNumber
 }
 internal class Quadratic
 {
-    public static void roots()
-    {
-
-    }
-    public static void solution()
-    {
-
-    }
-    public static void stateOfSolution()
-    {
-
-    }
 }
