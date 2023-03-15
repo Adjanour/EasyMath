@@ -484,15 +484,4 @@ internal class Quadratic
         }
 
     }      
-
-
-    
-    public static void solution()
-    {
-
-    }
-    public static void stateOfSolution()
-    {
-
-    }
 }
